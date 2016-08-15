@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja"  xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>SSAのプロトタイプ</title>
+</head>
+<body>
+	<div align="center" style="margin: 30px;">
+	<p>
+	商品ID
+	<input type="text">
+	</p>
+	<p>
+	商品名
+	<input type="text">
+	</p>
+	<button type="submit" style="padding: 10px 100px;">検索</button>
+	</div>
+	<table border="1" align="center" >
+		<tr>
+		<th  bgcolor="#99FF99" >NO.</th>
+		<th  bgcolor="#99FF99" >商品ID</th>
+		<th  bgcolor="#99FF99" >商品名</th>
+		<th  bgcolor="#99FF99" >在庫数</th>
+		<th bgcolor="#99FF99" >詳細</th>
+		</tr>
+		<tr>
+		<td>1</td>
+		<td>AB123</td>
+		<td>ガンプラ</td>
+		<td style="text-align:right;">100</td>
+		<td>RX-78 ガンダム</td>
+		</tr>
+		<tr>
+		<td>2</td>
+		<td>CD456</td>
+		<td>ニッパー</td>
+		<td style="text-align:right;">50</td>
+		<td>プラモを切るための道具です。</td>
+		</tr>
+		<tr>
+		<td>3</td>
+		<td>EF789</td>
+		<td>ガンダムマーカー</td>
+		<td style="text-align:right;">200</td>
+		<td>作成したガンプラに色を塗るための道具。</td>
+		</tr>
+		<tr>
+		<td>4</td>
+		<td>GH101</td>
+		<td>デカール</td>
+		<td style="text-align:right;">300</td>
+		<td>ガンプラに個性を出すためのステッカーです。</td>
+		</tr>
+		<tr>
+		<td>5</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>6</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>7</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>8</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>9</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>10</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>11</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>12</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>13</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>14</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>15</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>16</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>17</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>18</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>19</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<tr>
+		<td>20</td>
+		<td>xxxxxxxxxxccccccccccvvvvvvvvvvbb</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		<td style="text-align:right;">9999</td>
+		<td>----------xxxxxxxxxx----------xxxxxxxxxx</td>
+		</tr>
+		<!-- <tr>
+		<td>GH101</td>
+		<td>ああああああああああいいいいいいいいいいおおおおおおおおおおええええええええええ</td>
+		<td style="text-align:right;">300</td>
+		<td>ああああああああああいいいいいいいいいいええええええええええおおおおおおおおおお</td>
+		</tr> -->
+	</table>
+	<div style="text-align: center;"><<< 1 2>>></div>
+
+
+
+
+
+</body>
+</html>
