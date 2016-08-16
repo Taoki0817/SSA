@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="ja"  xmlns:th="http://www.thymeleaf.org">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8" />
 	<title>SSAのプロトタイプ</title>
 </head>
 <body>
 	<div align="center" style="margin: 30px;">
 	<p>
 	商品ID
+<<<<<<< HEAD
 	</p>
 	<p>
 	<input type="text" style="padding: 10px; border: medium #afeeee double;">
@@ -17,9 +18,16 @@
 	</p>
 	<p>
 	<input type="text" style="padding: 10px; border: medium #afeeee double;">
+=======
+	<input type="text" />
+>>>>>>> 666b984b90c6bad197dc47183ffddce809cf93fe
 	</p>
+	<form method="POST" action="/post">
+	<p>商品名<input type="text" name="name" /></p>
 	<button type="submit" style="padding: 10px 100px;">検索</button>
+	</form>
 	</div>
+	    <p th:text="'Hello, ' + ${name} + '!'" />
 	<table border="1" align="center" >
 		<tr>
 		<th  bgcolor="#99FF99" >商品ID</th>
@@ -154,7 +162,12 @@
 		<td>ああああああああああいいいいいいいいいいええええええええええおおおおおおおおおお</td>
 		</tr>
 	</table>
+<<<<<<< HEAD
 	<p style="text-align: center; color: #0000ff;"><< < 1 2 > >></p>
+=======
+	<div style="text-align: center;"> 1 2</div>
+
+>>>>>>> 666b984b90c6bad197dc47183ffddce809cf93fe
 
 
 
